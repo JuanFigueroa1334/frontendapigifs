@@ -40,7 +40,7 @@ const App = () => {
   }, []);
 
   const fetchCatFact = async () => {
-    const res = await axios.get("https://catfact.ninja/fact");
+    const res = await axios.get("https://localhost:7274/api/fact");
     return res.data.fact;
   };
   const fetchHistory = async () => {

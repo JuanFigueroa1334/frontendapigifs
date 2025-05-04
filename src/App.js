@@ -19,10 +19,12 @@ const App = () => {
     {
       name: "Texto completo",
       selector: row => row.catFact,
+      sortable: true,
       maxWidth: "500px",
     },
     {
       name: "Palabras busqueda",
+      sortable: true,
       selector: row => row.paramSearch
     },
     {
